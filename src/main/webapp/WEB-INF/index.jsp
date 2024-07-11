@@ -25,24 +25,7 @@
           <p class="text-4xl sm:text-xl font-bold text-slate-700">Modern Enterprise Software Engineering</p>
           <h1 class="text-5xl sm:text-6xl font-extrabold my-4 uppercase tracking-wider text-slate-700">English Frenzy</h1>
           <p class="text-lg sm:text-xl mb-10 max-w-xl text-slate-700">Testez vos connaissances en Anglais en déterminant les participes passés et prétérits des verbes irréguliers.</p>
-          <div class="flex flex-col mb-16">
-            <p class="text-lg sm:text-xl text-slate-700 font-bold mb-2 text-slate-500">Réalisée par:</p>
 
-            <div class="flex items-center gap-5">
-              <div class="flex items-center gap-1">
-                <div class="w-14 h-14 flex justify-center items-center rounded-md overflow-hidden">
-                  <img src="https://api.dicebear.com/9.x/adventurer/svg?seed=Shadow" class="w-full h-full object-contain" alt="avatar" />
-                </div>
-                <p class="text-base font-medium text-slate-700">Priscille Cynthia TOUSSI</p>
-              </div>
-              <div class="flex items-center gap-1">
-                <div class="w-14 h-14 flex justify-center items-center rounded-md overflow-hidden">
-                  <img src="https://api.dicebear.com/9.x/adventurer/svg?seed=Pepper" class="w-full h-full object-contain" alt="avatar" />
-                </div>
-                <p class="text-base font-medium text-slate-700">Patrick NAMEGNI</p>
-              </div>
-            </div>
-          </div>
           <div class="flex items-center gap-4">
             <a href="connexion" class="bg-white text-black rounded-full px-8 py-3 hover:shadow-lg transition duration-300">Connexion</a>
             <a href="inscription" class="border-2 border-slate-700 text-slate-700 rounded-full px-8 py-3 hover:bg-slate-700 hover:text-white transition duration-300">Inscription</a>

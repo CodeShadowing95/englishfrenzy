@@ -2,7 +2,7 @@
 
 ## Aperçu
 
-[![Screenshot-2024-07-10-164937.png](https://i.postimg.cc/L6jHyfYx/Screenshot-2024-07-10-164937.png)](https://postimg.cc/gnkFjxKh)
+[![Screenshot-2024-07-10-164937.png](https://i.postimg.cc/d3c9BHtB/Screenshot-2024-07-11-081539.png)](https://postimg.cc/BLNDZCFL)
 
 ## Description
 
