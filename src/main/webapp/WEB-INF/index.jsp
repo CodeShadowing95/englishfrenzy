@@ -3,35 +3,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>English Master | Home</title>
+  <title>English Frenzy | Home</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="../style/style.css" />
   <link rel="icon" href="../assets/EnglishFrenzy.png" type="image/png">
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+<div class="w-screen h-screen">
+  <!-- img container -->
+  <div class="w-full h-full">
+    <img src="../assets/banner.jpg" alt="banner" class="w-full h-full object-cover">
+  </div>
 
-<div class="w-screen h-screen flex justify-center items-center bg-gray-50">
-  <div class="flex flex-col justify-center items-center">
-    <!-- Image -->
-    <div class="w-24 h-24 flex justify-center items-center mb-4 rounded-md overflow-hidden">
-      <img src="../assets/EnglishFrenzy.png" class="w-full h-full object-contain" alt="logo">
-    </div>
+  <!-- main container -->
+  <div class="absolute inset-0">
+    <div class="w-full h-full flex justify-center items-center p-8">
+      <div class="w-full sm:w-1/2">
+        <img src="../assets/EnglishFrenzy.png" alt="logo" class="w-20 sm:w-32">
+        <div class="mt-24">
+          <p class="text-4xl sm:text-xl font-bold text-slate-700">Modern Enterprise Software Engineering</p>
+          <h1 class="text-5xl sm:text-6xl font-extrabold my-4 uppercase tracking-wider text-slate-700">English Frenzy</h1>
+          <p class="text-lg sm:text-xl mb-10 max-w-xl text-slate-700">Testez vos connaissances en Anglais en déterminant les participes passés et prétérits des verbes irréguliers.</p>
+          <div class="flex flex-col mb-16">
+            <p class="text-lg sm:text-xl text-slate-700 font-bold mb-2 text-slate-500">Réalisée par:</p>
 
-    <!-- Welcome -->
-    <p class="text-lg font-bold mb-2">Bienvenue sur English Frenzy</p>
-
-    <!-- Presentation -->
-    <p class="text-base font-light mb-8">Inscrivez-vous ou Connectez-vous à votre compte pour continuer.</p>
-
-    <!-- Buttons -->
-    <div class="flex justify-center items-center gap-2">
-      <button type="button" onclick="window.location.href='connexion'" class="focus:outline-none bg-blue-500 text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 border transition-all">Connexion</button>
-      <button type="button" onclick="window.location.href='inscription'" class="focus:outline-none bg-green-500 text-white hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 border transition-all">Inscription</button>
+            <div class="flex items-center gap-5">
+              <div class="flex items-center gap-1">
+                <div class="w-14 h-14 flex justify-center items-center rounded-md overflow-hidden">
+                  <img src="https://api.dicebear.com/9.x/adventurer/svg?seed=Shadow" class="w-full h-full object-contain" alt="avatar" />
+                </div>
+                <p class="text-base font-medium text-slate-700">Priscille Cynthia TOUSSI</p>
+              </div>
+              <div class="flex items-center gap-1">
+                <div class="w-14 h-14 flex justify-center items-center rounded-md overflow-hidden">
+                  <img src="https://api.dicebear.com/9.x/adventurer/svg?seed=Pepper" class="w-full h-full object-contain" alt="avatar" />
+                </div>
+                <p class="text-base font-medium text-slate-700">Patrick NAMEGNI</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <a href="connexion" class="bg-white text-black rounded-full px-8 py-3 hover:shadow-lg transition duration-300">Connexion</a>
+            <a href="inscription" class="border-2 border-slate-700 text-slate-700 rounded-full px-8 py-3 hover:bg-slate-700 hover:text-white transition duration-300">Inscription</a>
+          </div>
+        </div>
+      </div>
+      <div class="w-0 sm:w-1/2 flex justify-center">
+        <img src="../assets/app.png" alt="app" class="w-[500px] sm:w-[600px]">
+      </div>
     </div>
   </div>
 </div>
-
-<script src="https://unpkg.com/tailwindcss@^2"></script>
 </body>
 </html>

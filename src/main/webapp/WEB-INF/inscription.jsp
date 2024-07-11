@@ -7,24 +7,17 @@ uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../style/style.css" />
     <link rel="icon" href="../assets/EnglishFrenzy.png" type="image/png" />
-    <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <div
       class="w-screen h-screen flex justify-center items-center bg-blue-50 relative"
     >
-      <div class="absolute top-4 left-4">
-        <button
-          onclick="window.location.href='index'"
-          type="button"
-          class="px-3 py-2 text-sm text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg"
-        >
-          ${"< Retour"}
-        </button>
-      </div>
+      <!-- Back button -->
+      <button class="absolute top-4 left-4 px-3 py-2 flex items-center gap-2 text-sm text-slate-700 font-semibold bg-white/80 cursor-pointer rounded-lg z-20" onclick="window.location.href = 'index'">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M10.53 5.47a.75.75 0 0 1 0 1.06l-4.72 4.72H20a.75.75 0 0 1 0 1.5H5.81l4.72 4.72a.75.75 0 1 1-1.06 1.06l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.06 0" clip-rule="evenodd"></path></svg>
+        Revenir à l'accueil
+      </button>
       <div class="flex flex-col justify-center items-center">
         <!-- Image -->
         <div
@@ -53,7 +46,7 @@ uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
                 type="text"
                 name="nom"
                 value="${nom}"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="Nom(s)"
                 required
               />
@@ -63,7 +56,7 @@ uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
                 type="text"
                 name="prenom"
                 value="${prenom}"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="Prénom(s)"
                 required
               />
@@ -73,7 +66,7 @@ uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
                 type="email"
                 name="email"
                 value="${email}"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="Email"
                 required
               />
@@ -83,7 +76,7 @@ uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
                 type="password"
                 name="motDePasse"
                 value=""
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="Mot de passe"
                 required
               />
@@ -93,7 +86,7 @@ uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
                 type="password"
                 name="confirmationPassword"
                 value=""
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="Mot de passe"
                 required
               />
@@ -115,7 +108,7 @@ uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
                 name="niveau"
                 value="Débutant"
                 disabled="disabled"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
               />
             </div>
             <button
@@ -131,7 +124,5 @@ uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
         </div>
       </div>
     </div>
-
-    <script src="https://unpkg.com/tailwindcss@^2"></script>
   </body>
 </html>
